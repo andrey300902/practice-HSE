@@ -1,0 +1,9 @@
+mode = User_vs_Comp
+type = normal
+user = 0
+first_player = 0
+vector = 0110
+k = 2.0
+user_cards:
+0_cards: 1 2 5
+weights: 1 1 1 1 1 1 1 1 1 1 1 1 1
