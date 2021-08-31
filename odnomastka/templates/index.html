@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h1>Настройки</h1>
+
+    <form action="" method="post">
+        {% csrf_token %}
+        <textarea id="vector" name="vector" placeholder="Введите вектор"></textarea>
+        <input type="checkbox" id="mode" name="mode">"Играть самому"
+        <input type="checkbox" id="type" name="type">"Мизерная версия"
+        <input type="submit" value="Submit"/>
+    </form>
+{% endblock %}
